@@ -14,6 +14,12 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#Twitter bootstrap
+gem "therubyracer"
+gem "less-rails"
+gem 'twitter-bootstrap-rails'
+
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -36,6 +42,14 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
+
+  #Testing using rspec, guard for automation and capybara to mimic user
+  gem 'rspec-rails'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'capybara'
+  gem 'growl'
+  gem 'rb-fsevent'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
